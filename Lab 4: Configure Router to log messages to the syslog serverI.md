@@ -26,9 +26,16 @@ R1>en
 
 R1#configure terminal
 
-R1(config)#service timestamps log datetime msec <!--เพิ่ม Timestamp ลงในทุก log message ใช้รูปแบบ วัน-เวลา-มิลลิวินาทีทำให้ log มีความละเอียด สามารถตรวจสอบเหตุการณ์ย้อนหลังได้แม่นยำ  -->
+R1(config)#service timestamps log datetime msec
+- เพิ่ม Timestamp ลงในทุก log message
+- ใช้รูปแบบ วัน-เวลา-มิลลิวินาที
+- ทำให้ log มีความละเอียด สามารถตรวจสอบเหตุการณ์ย้อนหลังได้แม่นยำ
 
-R1(config)#logging 192.168.1.3 */ระบุ Syslog server ที่ IP 192.168.1.3Router จะ forward log ไปยัง server เพื่อเก็บรวมศูนย์ /*
+R1(config)#logging 192.168.1.3
+
+- ระบุ Syslog server ที่ IP 192.168.1.3
+
+- Router จะ forward log ไปยัง server เพื่อเก็บรวมศูนย์
 
 ประโยชน์:
 
@@ -39,3 +46,16 @@ R1(config)#logging 192.168.1.3 */ระบุ Syslog server ที่ IP 192.168
 R1(config)#loggin trap ?
 
 <img src ="images/logging trap.png" width="400">
+
+
+#### กำหนด Log Buffer ภายใน Router
+
+R1(config)#logging buffered 16000 information
+
+R2(config)#logging buffered 16000 information
+
+- เก็บ log ไว้ใน RAM ของ router ขนาด 16,000 bytes
+
+- ระดับ information → เก็บข้อความ log ที่เป็นข้อมูลเชิงรายละเอียด
+
+- ผู้ดูแลระบบสามารถใช้ show logging เพื่อดู log ย้อนหลังได้
