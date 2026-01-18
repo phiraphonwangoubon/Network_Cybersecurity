@@ -1,8 +1,11 @@
 -- LAB : Configuring ASA Basic Settings and Firewall Using CLI --
 1 ) ตั้งค่า Router R1
   Router>en
+  
   Router#conf t
+   
   Router(config)#hostname R1
+  
   R1(config)#
 
 1.1) ตั้งค่า password enable mode
