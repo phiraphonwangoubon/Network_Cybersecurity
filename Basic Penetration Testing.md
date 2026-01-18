@@ -179,6 +179,56 @@
   
   R3(config)#ip route 0.0.0.0 0.0.0.0 Serial0/0/1
 
+  5.  การกำหนดค่า ASA และความปลอดภัยของ Interface ผ่าน CLI
+
+กำหนดค่า hostname และ domain name โดยใช้คำสั่ง
+
+ciscoasa>en
+
+Password: (enter เลย เนื่องจากยังไม่มีการตั้ง password)
+
+ciscoasa#conf tciscoasa(config)#hostname CCNAS-ASA
+
+CCNAS-ASA(config)#domain-name cybersecurity.com
+
+ตั้งค่ารหัสผ่านสำหรับ Enable Mode
+
+CCNAS-ASA(config)#enable password enpass
+
+ตั้งค่า Interface ภายใน (inside) และภายนอก (outside)
+
+กำหนดค่า Interface VLAN 1 แบบ logical สำหรับเครือข่าย inside (192.168.1.0/24)
+
+ให้ตั้งค่า security level (ระดับความปลอดภัย) ให้เป็นค่าสูงสุดที่ 100 โดยใช้คำสั่ง
+
+CCNAS-ASA(config)# interface vlan 1
+
+CCNAS-ASA(config-if)# nameif inside
+
+CCNAS-ASA(config-if)# ip address 192.168.1.1 255.255.255.0
+
+CCNAS-ASA(config-if)# security-level 100
+
+CCNAS-ASA(config-if)# exit
+
+CCNAS-ASA(config)#
+
+สร้าง Interface VLAN 2 แบบ logical สำหรับเครือข่าย outside (209.165.200.224/29)
+
+ให้ตั้งค่า security level (ระดับความปลอดภัย) ให้เป็นค่าต่ำสุดที่ 0 และ enable (เปิดใช้งาน) Interface VLAN 2 โดยใช้คำสั่ง
+
+CCNAS-ASA(config)#interface vlan 2
+
+CCNAS-ASA(config-if)#nameif outside
+
+CCNAS-ASA(config-if)#ip address 209.165.200.226 255.255.255.248
+
+CCNAS-ASA(config-if)#security-level 0
+
+CCNAS-ASA(config-if)#exit
+
+CCNAS-ASA(config)#
+
 
 
 
