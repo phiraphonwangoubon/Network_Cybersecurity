@@ -10,6 +10,8 @@
 
 - เก็บ log ใน buffer ของ router (16,000 bytes) สำหรับตรวจสอบทันทีโดยไม่ต้องพึ่ง Syslog Server
 
+
+
 ผลลัพธ์:
 
 1 ) ผู้ดูแลระบบสามารถดู log ได้ทั้งใน Router (show logging) และที่ Syslog Server
@@ -20,6 +22,8 @@
 
 
 
+
+
 #### **กำหนดค่าเราเตอร์และสวิตช์เพื่อส่งบันทึกไปยังเซิร์ฟเวอร์ Syslog**
 
 R1>en
@@ -27,11 +31,15 @@ R1>en
 R1#configure terminal
 
 R1(config)#service timestamps log datetime msec
+
+
 - เพิ่ม Timestamp ลงในทุก log message
 - ใช้รูปแบบ วัน-เวลา-มิลลิวินาที
 - ทำให้ log มีความละเอียด สามารถตรวจสอบเหตุการณ์ย้อนหลังได้แม่นยำ
 
 R1(config)#logging 192.168.1.3
+
+
 
 - ระบุ Syslog server ที่ IP 192.168.1.3
 
