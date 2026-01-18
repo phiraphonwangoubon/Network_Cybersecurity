@@ -231,7 +231,7 @@ CCNAS-ASA(config)#
 
 CCNAS-ASA#sh switch vlan
 
-<img src="images/switch vlan.png" width="600">
+<img src="images/lab_C12D013C-2F9F-48FA-9C01-FC304E1A5B4B6.png" width="400">
 
 
 
