@@ -45,6 +45,8 @@ Router(config)#access-list 50 deny any log
 
 Router(config)#ip http access-class 50
 
+***
+
 ip http auth local → ใช้ local username/password สำหรับการเข้าถึง web management
 
 access-list 50 permit 192.168.x.0 0.0.0.255 → อนุญาตเฉพาะ subnet 192.168.x.0/24
