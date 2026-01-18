@@ -21,7 +21,7 @@
 3 ) เป็นการจัดการ Log แบบรวมศูนย์เพื่อเพิ่มความปลอดภัยและง่ายต่อการตรวจสอบ
 
 
-
+***
 
 
 #### **กำหนดค่าเราเตอร์และสวิตช์เพื่อส่งบันทึกไปยังเซิร์ฟเวอร์ Syslog**
@@ -32,14 +32,17 @@ R1#configure terminal
 
 R1(config)#service timestamps log datetime msec
 
+***
 
 - เพิ่ม Timestamp ลงในทุก log message
 - ใช้รูปแบบ วัน-เวลา-มิลลิวินาที
 - ทำให้ log มีความละเอียด สามารถตรวจสอบเหตุการณ์ย้อนหลังได้แม่นยำ
 
+***
+
 R1(config)#logging 192.168.1.3
 
-
+***
 
 - ระบุ Syslog server ที่ IP 192.168.1.3
 
@@ -51,10 +54,13 @@ R1(config)#logging 192.168.1.3
 
 - ง่ายต่อการวิเคราะห์เหตุการณ์ (เช่น Security Incident)
 
+***
+
 R1(config)#loggin trap ?
 
 <img src ="images/logging trap.png" width="400">
 
+***
 
 #### **กำหนด Log Buffer ภายใน Router**
 
