@@ -22,6 +22,7 @@ R1(config-isakmp)#lifetime 3600
 
 R1(config-isakmp)#end
 
+***
 
 R3(config)#crypto isakmp policy 10
 
