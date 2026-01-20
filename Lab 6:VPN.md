@@ -9,18 +9,30 @@
 ## Configure a Site-to-Site VPN with  Cisco IOS
 #### Configure ISAKMP policy parameters on R1 and R3
 R1(config)#crypto isakmp policy 10
+
 R1(config-isakmp)#authentication pre-share
+
 R1(config-isakmp)#encryption aes 256
+
 R1(config-isakmp)#hash sha
+
 R1(config-isakmp)#group 5
+
 R1(config-isakmp)#lifetime 3600
+
 R1(config-isakmp)#end
 
+
 R3(config)#crypto isakmp policy 10
+
 R3(config-isakmp)#authentication pre-share
+
 R3(config-isakmp)#encryption aes 256
+
 R3(config-isakmp)#hash sha
+
 R3(config-isakmp)#group 5
+
 R3(config-isakmp)#lifetime 3600
 
 ***
