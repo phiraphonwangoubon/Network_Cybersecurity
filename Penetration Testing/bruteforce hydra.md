@@ -1,6 +1,6 @@
 # bruteforce hydra.md
 
-ขั้นตอนที่ 1 : nmap
+ขั้นตอนที่ 1 : nmap เพื่อค้นหาบริการและพอร์ตบนเครื่องเป้าหมาย
 
 <img width="1561" height="613" alt="image" src="https://github.com/user-attachments/assets/b25dc0f4-f601-481a-9d38-ea6f4da1434a" />
 
