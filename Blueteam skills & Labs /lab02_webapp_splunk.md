@@ -45,25 +45,25 @@ Web Application โดยทั่วไปประกอบด้วย 3 ส�
 
 ในมุมผู้ใช้:
 
-อย่าลง extension แปลก ๆ
+     👉 อย่าลง extension แปลก ๆ
 
-ไม่โหลด crack / mod
+     👉 ไม่โหลด crack / mod
 
-ใช้ antivirus + browser isolation
+     👉 ใช้ antivirus + browser isolation
 
-Logout เว็บสำคัญเมื่อใช้เครื่องคนอื่น
+     👉 Logout เว็บสำคัญเมื่อใช้เครื่องคนอื่น
 
 ในมุม developer:
 
-ใช้ HttpOnly
+     👉 ใช้ HttpOnly
 
-ใช้ Secure
+     👉 ใช้ Secure
 
-ใช้ SameSite
+     👉 ใช้ SameSite
 
-ตั้งอายุ cookie สั้น
+     👉 ตั้งอายุ cookie สั้น
 
-ป้องกัน XSS ให้ดี
+     👉 ป้องกัน XSS ให้ดี
 
 ***
 
