@@ -70,3 +70,6 @@ Web Application โดยทั่วไปประกอบด้วย 3 ส�
 ## SQL Injection (SQLi)
 
      command : index="weblog" sourcetype="access_combined" "OR" OR "'1'='1" OR "'--" OR "' and " OR "union select" | stats count by clientip, uri_path, uri_query, status
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4d780794-848a-42ab-adb8-80767283b4ab" />
+
