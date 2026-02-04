@@ -12,6 +12,29 @@
 
     - Maintain this repository as both a professional portfolio and a personal learning journal for future reference
 
+## 🧩 Skills Covered
+
+- Networking
+
+- Routing protocol
+
+- Vlan & Inter - Vlan
+
+- Routing Loop with Multi-redistribution point and How to prevent routing loop by using Route Tag
+
+- Firewall & VPN
+
+- SIEM (Splunk,Wazuh)
+
+- Log Analysis
+
+- Web Security
+
+- Penetration Testing
+
+
+Created by: Phiraphon Wangoubon
+Cybersecurity student passionate about Network and Cybersecurity.
 
 ## ⚠ Disclaimer
 
