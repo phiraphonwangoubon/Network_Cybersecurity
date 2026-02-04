@@ -1,4 +1,4 @@
-## Web Application Attacks_splunk
+# Web Application Attacks_splunk
 
 โครงสร้างพื้นฐานของ Web Application
 
@@ -67,6 +67,6 @@ Web Application โดยทั่วไปประกอบด้วย 3 ส�
 
 ***
 
-### SQL Injection (SQLi)
+## SQL Injection (SQLi)
 
      command : index="weblog" sourcetype="access_combined" "OR" OR "'1'='1" OR "'--" OR "' and " OR "union select" | stats count by clientip, uri_path, uri_query, status
