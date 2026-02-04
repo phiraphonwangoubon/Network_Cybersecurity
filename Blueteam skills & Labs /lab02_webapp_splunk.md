@@ -67,6 +67,6 @@ Logout เว็บสำคัญเมื่อใช้เครื่อง�
 
 ***
 
-###SQL Injection (SQLi)
+### SQL Injection (SQLi)
 
-command : index="weblog" sourcetype="access_combined" "OR" OR "'1'='1" OR "'--" OR "' and " OR "union select" | stats count by clientip, uri_path, uri_query, status
+     command : index="weblog" sourcetype="access_combined" "OR" OR "'1'='1" OR "'--" OR "' and " OR "union select" | stats count by clientip, uri_path, uri_query, status
