@@ -4,13 +4,17 @@
 
 Web Application โดยทั่วไปประกอบด้วย 3 ส่วนหลัก (3-Tier Architecture)
 
-Layer	                      คำอธิบาย	                       ตัวอย่าง
+1 ) Client Tier	 คือ ส่วนที่ผู้ใช้มองเห็น (Frontend)
 
-Client Tier	        ส่วนที่ผู้ใช้มองเห็น (Frontend)	          HTML, CSS, JavaScript
+     ตัวอย่าง : HTML, CSS, JavaScript
 
-Application Tier	  ตรรกะของระบบ (Backend)	            PHP, Python, Node.js
+2 ) Application Tier คือตรรกะของระบบ (Backend)
 
-Data Tier	          จัดการข้อมูล (Database)	              MySQL, PostgreSQL, MongoDB
+     ตัวอย่าง : PHP, Python, Node.js
+
+3 ) Data Tier คือการจัดการข้อมูล (Database)
+
+     ตัวอย่าง : MySQL, PostgreSQL, MongoDB
 
 ตัวอย่างการทำงาน:
 
