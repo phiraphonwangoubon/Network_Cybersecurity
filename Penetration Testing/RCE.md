@@ -32,7 +32,8 @@ python3 50944.py -url http://[target_ip]/ -u user@localhost.com -p password
 
 หลังจากที่ได้ url 
 
-<img width="1568" height="322" alt="image" src="https://github.com/user-attachments/assets/61eb2694-d4e5-46b4-9721-288c02628dfe" />
+<img width="1568" height="135" alt="3" src="https://github.com/user-attachments/assets/b3e82f06-0e54-4945-944b-ec213a7306ce" />
+
 
 - ให้เราไปตาม URL และเราจะพบว่าที่ url มีการเรียกใช้คำสั่ง whoami ที่จะแสดงถึงชื่อผู้ใช้งานที่กำลังเข้าสู่ระบบปัจจุบัน
 
