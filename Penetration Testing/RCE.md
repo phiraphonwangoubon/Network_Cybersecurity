@@ -43,7 +43,8 @@ python3 50944.py -url http://[target_ip]/ -u user@localhost.com -p password
 
 ผมจึงใช้งานคำสั่งที่ด้านหลังของ url ใช้คำสั่ง cat+-/etc/passwd เพื่อดูเนื้อหาในไฟล์ passwd ได้
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5dc2eff0-8c81-4a12-991d-05ac5c1e8777" />
+<img width="1043" height="808" alt="4" src="https://github.com/user-attachments/assets/523bc8d7-5507-4f71-9be3-9d43a2bf378f" />
+
 
 และยังสามารถใช้คำสั่งอื่นๆเพื่อค้นหาข้อมูลต่างๆที่ต้องการได้อีกมากมาย
 
