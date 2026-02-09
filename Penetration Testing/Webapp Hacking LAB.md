@@ -1,4 +1,4 @@
-<img width="1572" height="659" alt="image" src="https://github.com/user-attachments/assets/1a5978c2-bb1d-4c0f-abc8-b145a688815c" /># Webapp Hacking LAB
+# Webapp Hacking LAB
 
 ***
 
