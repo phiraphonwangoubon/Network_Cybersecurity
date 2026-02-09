@@ -36,7 +36,9 @@
 
   2.1 ) หลังจากที่ได้ username และ password ต่างๆมาแล้วเราจะนำไปทำเป็น wordlists เพื่อทำการ Bruteforce
 
-  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/320ac9a5-7c82-4839-8222-15732cf04e5c" />
+  command : nano username
+  
+  command : nano passwd
 
   2.2 ) แต่ก่อนที่เราจะทำการ Bruteforce ควรเช็ค Page source ก่อน เพื่อดูชื่อ parameter ที่ใช้ส่งไป server
 
