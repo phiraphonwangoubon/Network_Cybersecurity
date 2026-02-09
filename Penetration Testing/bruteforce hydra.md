@@ -20,7 +20,7 @@ Command : gobuster dir -u http://[ip_target]// -w /usr/share/wordlists/dirb/comm
  
 <img width="787" height="202" alt="image" src="https://github.com/user-attachments/assets/2a4d16f3-2e03-4327-b71c-30719516b496" />
 
-<img width="593" height="278" alt="image" src="https://github.com/user-attachments/assets/f6839b99-e359-4159-84cc-47f77fe6dd03" />
+<img width="593" height="104" alt="540085575-f6839b99-e359-4159-84cc-47f77fe6dd03" src="https://github.com/user-attachments/assets/8b8798a9-f747-4fde-8d30-b66daa36ff19" />
 
 ***
 
