@@ -29,8 +29,7 @@ Command : gobuster dir -u http://[ip_target]// -w /usr/share/wordlists/dirb/comm
 
 Command : cewl http://[ip_target]/
 
-<img width="1206" height="684" alt="image" src="https://github.com/user-attachments/assets/a29f35d6-97a7-4b8c-998f-9529626aaec1" />
-
+<img width="1206" height="635" alt="540087752-a29f35d6-97a7-4b8c-998f-9529626aaec1" src="https://github.com/user-attachments/assets/baa9155c-02f7-42d0-9639-83fd3a0e7900" />
 
 คำอธิบายเพิ่มเติม
 
