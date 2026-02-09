@@ -6,7 +6,7 @@
 
 1.1 : nmap เพื่อตรวจสอบบริการของเครื่องเป้าหมาย
 
-<img width="1572" height="659" alt="image" src="https://github.com/user-attachments/assets/16c574fb-415d-4924-84d7-ac54e90eb768" />
+<img width="836" height="72" alt="540252562-16c574fb-415d-4924-84d7-ac54e90eb768 (1)" src="https://github.com/user-attachments/assets/47746dc7-dc27-4923-bc45-91b3a705a6b9" />
 
 1.1 : ลองเข้าผ่าน port80 เพื่อตรวจสอบ web service
 
