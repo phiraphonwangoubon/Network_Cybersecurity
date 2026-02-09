@@ -37,7 +37,7 @@ Command : cewl http://[ip_target]/
 
 3.1) ใส่ wordlist ทีได้มาในไฟล์ memory.txt
 
-<img width="523" height="85" alt="image" src="https://github.com/user-attachments/assets/c6daef85-e874-41bb-b0b1-06dd01cb90c2" />
+<img width="307" height="50" alt="540087639-c6daef85-e874-41bb-b0b1-06dd01cb90c2" src="https://github.com/user-attachments/assets/8650213b-fa14-487f-9673-c648e825dc07" />
 
 ***
 
