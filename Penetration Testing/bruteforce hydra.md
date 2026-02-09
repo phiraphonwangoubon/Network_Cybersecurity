@@ -52,7 +52,7 @@ Command : hydra –l black –P /usr/bin/memory.txt [ip_target] ssh
 
  -P ใช้เพื่อระบุเส้นทางไปยังไฟล์รหัสผ่านที่ Hydra จะใช้สำหรับการโจมตีแบบ brute-forcing 
  
- <img width="1488" height="619" alt="image" src="https://github.com/user-attachments/assets/0d75e00b-293c-4469-9624-e1bdb344d039" />
+<img width="1488" height="589" alt="540087354-0d75e00b-293c-4469-9624-e1bdb344d039" src="https://github.com/user-attachments/assets/3df41c84-b492-4136-869c-7bbfd1a09f42" />
 
 ***
 
