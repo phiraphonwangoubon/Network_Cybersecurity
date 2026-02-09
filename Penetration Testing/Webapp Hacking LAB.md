@@ -100,8 +100,6 @@
   <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bd10a0d3-0027-4de5-bbab-67685f97eb09" />
 
 
-<img width="1266" height="467" alt="image" src="https://github.com/user-attachments/assets/38a32e83-f523-4eae-802e-90055b4b253e" />
-
 ***
 
   6 : หลังจากนั้นเราจะทำการดักจับข้อมูลโดยใช้ Foxy Proxy
