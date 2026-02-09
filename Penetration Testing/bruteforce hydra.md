@@ -60,9 +60,6 @@ Command : hydra –l black –P /usr/bin/memory.txt [ip_target] ssh
 
 Command : ssh black@[ip_target]
 
-<img width="516" height="64" alt="image" src="https://github.com/user-attachments/assets/c870ab64-b8b6-427b-a4ee-a753f7a4b666" />
-
-<img width="564" height="238" alt="image" src="https://github.com/user-attachments/assets/c4d94ae6-306a-4e60-abf0-c9a4bf420792" />
 
 
 
