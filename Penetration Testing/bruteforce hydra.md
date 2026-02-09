@@ -18,8 +18,6 @@ Command : gobuster dir -u http://[ip_target]// -w /usr/share/wordlists/dirb/comm
 
  -/usr/share/wordlists/dirb/common.txt = wordlists
  
-<img width="1886" height="1112" alt="image" src="https://github.com/user-attachments/assets/3896c564-b351-4654-ba79-2de5442e8a8c" />
-
 <img width="787" height="202" alt="image" src="https://github.com/user-attachments/assets/2a4d16f3-2e03-4327-b71c-30719516b496" />
 
 <img width="593" height="278" alt="image" src="https://github.com/user-attachments/assets/f6839b99-e359-4159-84cc-47f77fe6dd03" />
